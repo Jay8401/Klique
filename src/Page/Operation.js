@@ -6,32 +6,47 @@ const Operation = () => {
       <h2 className="text-3xl mb-6 text-center text-pink-400 font-bold">
         How does it work?
       </h2>
-      <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-        <div className="text-center">
-          <div className="w-12 h-12 bg-[#D0E655] text-black font-bold text-2xl rounded-full flex items-center justify-center mb-2 mx-auto">
-            1
-          </div>
-          <div className="text-lg">Put in your request</div>
+      <div className="w-full flex items-center justify-center">
+        <span className="text-white font-semibold">1</span>
+        <div className="flex items-center bg-[#D0E655] rounded-full py-2 px-10 mx-4">
+          <span className="text-black font-bold">Put in your request</span>
         </div>
-        <div className="text-center">
-          <div className="w-12 h-12 bg-[#D0E655] text-black font-bold text-2xl rounded-full flex items-center justify-center mb-2 mx-auto">
-            2
-          </div>
-          <div className="text-lg">Receive curated list</div>
+        <span className="text-white font-semibold">2</span>
+        <div className="flex items-center bg-[#D0E655] rounded-full py-2 px-10 mx-4">
+          <span className="text-black font-bold">Receive curated list</span>
         </div>
-        <div className="text-center">
-          <div className="w-12 h-12 bg-[#D0E655] text-black font-bold text-2xl rounded-full flex items-center justify-center mb-2 mx-auto">
-            3
-          </div>
-          <div className="text-lg">Choose the Talent</div>
+        <span className="text-white font-semibold">3</span>
+        <div className="flex items-center bg-[#D0E655] rounded-full py-2 px-10 mx-4">
+          <span className="text-black font-bold">Choose the Talent</span>
         </div>
-        <div className="text-center">
-          <div className="w-12 h-12 bg-[#D0E655] text-black font-bold text-2xl rounded-full flex items-center justify-center mb-2 mx-auto">
-            4
-          </div>
-          <div className="text-lg">Meet & create somethings!</div>
+        <span className="text-white font-semibold">4</span>
+        <div className="flex items-center bg-[#D0E655] rounded-full py-2 px-10 mx-4">
+          <span className="text-black font-bold">Meet & create something!</span>
         </div>
       </div>
+
+      {/* Media queries */}
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .flex {
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .flex {
+            flex-direction: column;
+            align-items: stretch;
+          }
+
+          .flex > div {
+            margin: 0.5rem 0;
+            width: 100%;
+            justify-content: center;
+          }
+        }
+      `}</style>
     </div>
   );
 };
