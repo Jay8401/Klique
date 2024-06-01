@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
+        galada: ["Galada", "cursive"],
       },
     },
     fontFamily: {

@@ -17,7 +17,7 @@ const Operation = () => {
   return (
     <div ref={ref} className={`mt-16 ${isVisible ? "animate" : ""}`}>
       <h2 className="text-3xl mb-6 text-center text-pink-400 font-bold">
-        How does it work?
+        How does it <span className="font-galada">work?</span>
       </h2>
       <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
         <div

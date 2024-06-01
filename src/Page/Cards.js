@@ -21,7 +21,7 @@ const Cards = () => {
           isVisible ? "animate" : ""
         }`}
       >
-        Discover, Collaborate & Create!
+        Discover, Collaborate & <span className="font-galada">Create!</span>
       </p>
 
       <div
@@ -32,7 +32,7 @@ const Cards = () => {
       >
         <div className="relative flex-grow p-6 bg-[#2146F6] border border-gray-200 rounded-lg shadow w-full sm:max-w-sm card">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white z-10 relative">
-            Looking for a talent?
+            Looking for a Talent?
           </h5>
           <p className="mb-3 font-normal text-gray-100 dark:text-gray-400 z-10 relative">
             Want to do a photoshoot or find a videographer for your next brand
