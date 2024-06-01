@@ -30,22 +30,6 @@ const Navbar = () => {
           </a>
         </div>
       </nav>
-
-      {/* Media queries */}
-      <style jsx>{`
-        @media (max-width: 768px) {
-          nav {
-            flex-direction: column;
-            align-items: center;
-          }
-
-          .space-x-6 {
-            flex-direction: column;
-            align-items: center;
-            margin-top: 1rem;
-          }
-        }
-      `}</style>
     </header>
   );
 };
