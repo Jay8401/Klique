@@ -51,7 +51,17 @@ const Operation = () => {
       </div>
 
       <style jsx>{`
-        .step {
+        @keyframes fade-in {
+          from {
+            opacity: 0;
+            transform: translateX(100%);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+        .animate .step {
           display: inline-block;
           opacity: 0;
           transform: translateX(100%);
@@ -69,17 +79,6 @@ const Operation = () => {
         }
         .animate:nth-child(4) {
           animation-delay: 0.4s;
-        }
-
-        @keyframes fade-in {
-          from {
-            opacity: 0;
-            transform: translateX(100%);
-          }
-          to {
-            opacity: 1;
-            transform: translateX(0);
-          }
         }
       `}</style>
     </div>

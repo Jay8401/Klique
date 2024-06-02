@@ -4,8 +4,8 @@ import { useInView } from "react-intersection-observer";
 const Cards = () => {
   const [isVisible, setIsVisible] = useState(false);
   const { ref, inView } = useInView({
-    threshold: 0.5, // Trigger animation when 50% of the component is visible
-    triggerOnce: true, // Only trigger the animation once
+    threshold: 0.5,
+    triggerOnce: true,
   });
 
   useEffect(() => {
@@ -30,7 +30,9 @@ const Cards = () => {
           isVisible ? "animate" : ""
         }`}
       >
-        <div className="relative flex-grow p-6 bg-[#2146F6] border border-gray-200 rounded-lg shadow w-full sm:max-w-sm card">
+        <div
+          className={`card relative flex-grow p-6 bg-[#2146F6] border border-gray-200 rounded-lg shadow w-full sm:max-w-sm`}
+        >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white z-10 relative">
             Looking for a Talent?
           </h5>
@@ -47,7 +49,9 @@ const Cards = () => {
             </button>
           </a>
         </div>
-        <div className="relative flex-grow p-6 bg-[#2146F6] border border-gray-200 rounded-lg shadow w-full sm:max-w-sm card">
+        <div
+          className={`card relative flex-grow p-6 bg-[#2146F6] border border-gray-200 rounded-lg shadow w-full sm:max-w-sm card`}
+        >
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white z-10 relative">
             Are you a Talent?
           </h5>
@@ -70,11 +74,6 @@ const Cards = () => {
       <style jsx>{`
         .card {
           transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        }
-
-        .card:hover {
-          transform: scale(1.05);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
         }
       `}</style>
     </>
