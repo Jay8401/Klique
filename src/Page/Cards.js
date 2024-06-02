@@ -17,7 +17,7 @@ const Cards = () => {
   return (
     <>
       <p
-        className={`text-pink-400 font-bold text-2xl mb-7 text-center ${
+        className={`text-pink-400 font-bold text-3xl mb-7 text-center ${
           isVisible ? "animate" : ""
         }`}
       >
@@ -43,7 +43,7 @@ const Cards = () => {
           <a href="https://forms.gle/hZXyGS9rGFJWBEN5A">
             <button
               type="button"
-              className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-black focus:outline-none bg-[#D0E655] rounded-full border border-black focus:z-10 focus:ring-4 relative transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-black hover:text-white"
+              className="py-2.5 px-5 mt-5 mb-2 text-sm font-medium text-black focus:outline-none bg-[#D0E655] rounded-full border border-black focus:z-10 focus:ring-4 relative transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-black hover:text-white"
             >
               Send us your inquiry!
             </button>

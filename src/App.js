@@ -21,7 +21,9 @@ const App = () => {
               "linear-gradient(88.07deg, #2146F6 1.05%, #F085B9 110.92%)",
           }}
         >
-          <h2 className="text-3xl mb-3 text-white">Join The Klique Tribe!</h2>
+          <h2 className="text-3xl font-extrabold mb-3 text-white">
+            Join The Klique <span className="font-galada">Tribe</span>
+          </h2>
           <p className="mb-6 text-white">
             Find collabs, learn & share your experiences with budding community
             of artists, businesses & creative talent.

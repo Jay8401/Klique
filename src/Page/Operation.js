@@ -16,33 +16,33 @@ const Operation = () => {
 
   return (
     <div ref={ref} className={`mt-16 ${isVisible ? "animate" : ""}`}>
-      <h2 className="text-3xl mb-6 text-center text-pink-400 font-bold">
+      <h3 className="text-3xl mb-6 text-center text-pink-400 font-bold">
         How does it <span className="font-galada">work?</span>
-      </h2>
+      </h3>
       <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
         <div
-          className={`step bg-[#D0E655] font-bold text-black p-6 rounded-lg w-full sm:w-1/2 lg:w-1/4 text-center ${
+          className={`step bg-[#D0E655] font-semibold text-black p-6 rounded-lg w-full sm:w-1/2 lg:w-1/4 text-center ${
             isVisible ? "animate" : ""
           }`}
         >
           Put in your request
         </div>
         <div
-          className={`step bg-[#D0E655] font-bold text-black p-6 rounded-lg w-full sm:w-1/2 lg:w-1/4 text-center ${
+          className={`step bg-[#D0E655] font-semibold text-black p-6 rounded-lg w-full sm:w-1/2 lg:w-1/4 text-center ${
             isVisible ? "animate" : ""
           }`}
         >
           Receive curated list
         </div>
         <div
-          className={`step bg-[#D0E655] font-bold text-black p-6 rounded-lg w-full sm:w-1/2 lg:w-1/4 text-center ${
+          className={`step bg-[#D0E655] font-semibold text-black p-6 rounded-lg w-full sm:w-1/2 lg:w-1/4 text-center ${
             isVisible ? "animate" : ""
           }`}
         >
           Choose the Talent
         </div>
         <div
-          className={`step bg-[#D0E655] font-bold text-black p-6 rounded-lg w-full sm:w-1/2 lg:w-1/4 text-center ${
+          className={`step bg-[#D0E655] font-semibold text-black p-6 rounded-lg w-full sm:w-1/2 lg:w-1/4 text-center ${
             isVisible ? "animate" : ""
           }`}
         >

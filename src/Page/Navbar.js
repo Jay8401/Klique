@@ -7,29 +7,29 @@ const Navbar = () => {
         <div className="flex items-center">
           <a
             href="/"
-            className="text-4xl font-extrabold text-black mb-4 md:mb-0"
+            className="flex items-center justify-center w-[175px] h-[50px] mb-4 md:mb-0"
           >
-            KLIQUE
+            <img src="logo_final.PNG" alt="main" className="object-contain" />
           </a>
         </div>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
           <a
             href="mailto:Akshita.klique@gmail.com"
-            className="text-black font-semibold border border-black rounded-full px-5 py-1 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-black hover:text-white text-center"
+            className="text-black  border border-black rounded-full px-5 py-1 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-black hover:text-white text-center"
           >
             Contact Us
           </a>
 
           <a
             href="mailto:Akshita.klique@gmail.com"
-            className="text-black font-semibold border border-black rounded-full px-5 py-1 transition-transform duration-300 ease-in-out transform hover:scale-105  hover:bg-black hover:text-white"
+            className="text-black  border border-black rounded-full px-5 py-1 transition-transform duration-300 ease-in-out transform hover:scale-105  hover:bg-black hover:text-white"
           >
             Join Our Team
           </a>
 
           <a
             href="https://chat.whatsapp.com/DTHHbUvcokP8n8igURZF92"
-            className="text-black font-semibold border border-black rounded-full px-5 py-1 transition-transform duration-300 ease-in-out transform hover:scale-105  hover:bg-black hover:text-white"
+            className="text-black  border border-black rounded-full px-5 py-1 transition-transform duration-300 ease-in-out transform hover:scale-105  hover:bg-black hover:text-white"
           >
             Join Community
           </a>
