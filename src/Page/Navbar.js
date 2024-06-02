@@ -9,7 +9,7 @@ const Navbar = () => {
             href="/"
             className="flex items-center justify-center w-[175px] h-[50px] mb-4 md:mb-0"
           >
-            <img src="logo_final.PNG" alt="main" className="object-contain" />
+            <img src="logo_final.png" alt="main" className="object-contain" />
           </a>
         </div>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
