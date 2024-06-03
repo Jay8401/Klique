@@ -3,12 +3,12 @@
   "name": "Klique: Your Gateway to Creative Connections",
   "icons": [
     {
-      "src": "images/logo.JPG",
+      "src": "logo.JPG",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/JPG"
     },
     {
-      "src": "images/logo.JPG",
+      "src": "logo.JPG",
       "type": "image/JPG",
       "sizes": "192x192"
     },
