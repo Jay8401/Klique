@@ -18,14 +18,14 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
           <a
-            href="mailto:Akshita.klique@gmail.com"
+            href="mailto:Contactteam.klique@gmail.com"
             className="text-black  border border-black rounded-full px-5 py-1 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-black hover:text-white text-center"
           >
             Contact Us
           </a>
 
           <a
-            href="mailto:Akshita.klique@gmail.com"
+            href="mailto:Contactteam.klique@gmail.com"
             className="text-black  border border-black rounded-full px-5 py-1 transition-transform duration-300 ease-in-out transform hover:scale-105  hover:bg-black hover:text-white"
           >
             Join Our Team
